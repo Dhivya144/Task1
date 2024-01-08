@@ -1,0 +1,432 @@
+.cmpyname {
+    text-align: center;
+    font-family: math;
+    font-weight:bolder;
+}
+/* Company Intro */
+.subDiv1 {
+    margin: auto;
+    text-align: center;
+    /* background-color: aqua; */
+    height: 75px;
+    width: 80%;
+    padding: 3.5%;
+    border: 1px solid brown;
+}
+
+.subDiv2 {
+    margin: 2% 10%;
+    height: 105px;
+    width: 80%;
+    background-color: #ff000021;
+}
+.teamhead1 {
+    text-align: center;
+    font-size: x-large;
+    font-family: serif;
+    letter-spacing: 18px;
+    padding-top: 1%;
+    margin-bottom: -3%;
+    color: #4516d1;
+    font-weight: bolder;
+}
+.teamhead2 {
+    text-align: center;
+    font-size: larger;
+    font-family: serif;
+    letter-spacing: 8px;
+}
+
+/* Picture of Main Member of Company */
+.mainMember {
+    margin: auto;
+    height: 275px;
+    width: 90%;
+}
+.picofmainMember {
+    margin: auto;
+    height: 242px;
+    width: 90%;
+    display: flex; 
+}
+.pic1 {
+    height: 172px;
+    width: 19%;
+    left: 18%;
+    border-radius: 50%;
+    position: relative;
+}
+.manager1 {
+    height: 176px;
+    width: 81%;
+    left: 50%;
+    border-radius: 50%;
+    position: relative;
+    top: 8%;
+}
+.pic2 {
+    height: 197px;
+    width: 24%;
+    margin-left: 16%;
+    border-radius: 50%;
+    position: relative;
+}
+.ceo {
+    height: 225px;
+    width: 85%;
+    background-color: aquamarine;
+    left: 25%;
+    border-radius: 50%;
+    position: relative;
+}
+.pic3 {
+    height: 172px;
+    width: 19%;
+    border-radius: 50%;
+    margin-left: -2%;
+}
+.manager2 {
+    height: 176px;
+    width: 81%;
+    left: 0%;
+    border-radius: 50%;
+    top: 8%;
+    margin-top: 11%;
+    margin-left: 15%;
+}
+
+/* Name of Main Member */
+.nameofMainMember {
+    display: flex;
+}
+.managerName1 {
+    margin-left: 30%;
+    margin-top: -4%;
+    font-size: medium;
+    font-style: italic;
+}
+.ceoName {
+    margin-left: 4%;
+    margin-top: 0%;
+    font-size: larger;
+    font-style: normal;
+    font-weight: 800;
+}
+.managerName2 {
+    margin-left: 3%;
+    margin-top: -3%;
+    font-size: medium;
+    font-style: italic;
+}
+/* LeadershipTeam */
+.teamGrpName {
+    width: 72%;
+    background-color: brown;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    font-size: xx-large;
+    font-weight: 900;
+    color: white;
+}
+.teamGrp1Pic {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+
+}
+.dev1 {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    height: 150px;
+}
+
+/* sales & marketing team */
+.teamGrp2Pic {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+}
+.setname {
+    display: inline-flex;
+    position: relative;
+    top: -62px;
+    outline-style: double;
+    color: brown;
+    background-color: white;
+}
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 480px) {
+            .subDiv1 {
+                height: 106px;
+            }
+            .subDiv2 {
+                height: 78px;
+            }
+            .teamhead1 {
+                letter-spacing: 6px;
+                margin-bottom: -11%;
+            }
+            .teamhead2 {
+                letter-spacing: 4px;
+            }
+            /* Picture of Main Member of Company */
+            .mainMember {
+                height: 158px;
+            }
+            .picofmainMember {
+                height: 108px;
+            }
+            .manager1 {
+                height: 101px;
+                width: 123%;
+                left: 0%
+            }
+            .ceo {
+                height: 127px;
+                width: 128%;
+                left: 10%
+            }
+            .manager2 {
+                height: 101px;
+                margin-top: 22%;
+                margin-left: 54%;
+                width: 121%;
+            }
+            /* Name of Main Member */
+            .managerName1 {
+                margin-left: 22%;
+                margin-top: 3%;
+                font-size: 7px;
+                font-style: normal;
+                font-weight: 900;
+            }
+            .ceoName {
+                margin-left: 4%;
+                margin-top: 7%;
+                font-size: smaller;
+                font-style: normal
+            }
+            .managerName2 {
+                margin-left: 3%;
+                margin-top: 3%;
+                font-size: 7px;
+                font-style: normal;
+                font-weight: 900;
+            }
+        
+            
+        }
+         
+        /* Media Query for low resolution  Tablets, Ipads */
+        @media (min-width: 481px) and (max-width: 767px) {
+            .subDiv1 {
+                height: 96px;
+            }
+            .subDiv2 {
+                height: 78px;
+            }
+            .teamhead1 {
+                letter-spacing: 14px;
+                margin-bottom: -8%;
+            }
+            .teamhead2 {
+                letter-spacing: 6px;
+            }
+
+           /* Picture of Main Member of Company */
+            .mainMember {
+                height: 164px;
+            }
+            .picofmainMember {
+                height: 123px;
+            }
+            .manager1 {
+                height: 111px;
+                width: 107%;
+                left: 3%;
+            }
+            .ceo {
+                height: 135px;
+                width: 100%;
+                left: 10%;
+            }
+            .manager2 {
+                height: 111px;
+                margin-top: 14%;
+                margin-left: 15%;
+                width: 107%;
+            }
+            /* Name of Main Member */
+            .managerName1 {
+                margin-left: 24%;
+                margin-top: 1%;
+                font-size: 10px;
+                /* font-style: normal; */
+                font-weight: 700;
+            }
+            .ceoName {
+                margin-left: 3%;
+                margin-top: 3%;
+                font-size: medium;
+                font-weight: 800;
+            }
+            .managerName2 {
+                margin-left: 3%;
+                margin-top: 1%;
+                font-size: 10px;
+                /* font-style: normal; */
+                font-weight: 700;
+            }
+            
+    
+        }
+         
+        /* Media Query for Tablets Ipads portrait mode */
+        @media (min-width: 768px) and (max-width: 1024px){
+            .subDiv1 {
+                height: 64px;
+            }
+            .subDiv2 {
+                height: 78px;
+            }
+            .teamhead1 {
+                letter-spacing: 14px;
+                margin-bottom: -7%;
+            }
+            .teamhead2 {
+                letter-spacing: 6px;
+            }
+
+                /* Picture of Main Member of Company */
+                .mainMember {
+                    height: 167px;
+                }
+                .picofmainMember {
+                    height: 105px;
+                }
+                .manager1 {
+                    height: 106px;
+                    width: 110%;
+                    left: 5%;
+                }
+                .ceo {
+                    height: 135px;
+                    width: 101%;
+                    left: 10%;
+                }
+                .manager2 {
+                    height: 106px;
+                    margin-top: 12%;
+                    margin-left: 15%;
+                    width: 110%;
+                }
+                /* Name of Main Member */
+                .nameofMainMember {
+                    display: flex;
+                    height: 57px;
+                    width: 80%;
+                    margin: auto;
+                }
+                .managerName1 {
+                    margin-left: 19%;
+                    margin-top: 3%;
+                    font-size: 12px;
+                    font-weight: 800;
+                }
+                .ceoName {
+                    margin-left: 6%;
+                    margin-top: 5%;
+                    font-size: large;
+                    font-style: normal;
+                }
+                .managerName2 {
+                    margin-left: 5%;
+                    margin-top: 4%;
+                    font-size: 12px;
+                    font-weight: 900;
+                }
+        }
+         
+        /* Media Query for Laptops and Desktops */
+        @media (min-width: 1025px) and (max-width: 1280px){
+            .subDiv1 {
+                height: 39px;
+            }
+            .subDiv2 {
+                height: 82px;
+            }
+            .teamhead1 {
+                letter-spacing: 18px;
+                margin-bottom: -4%
+            }
+            .teamhead2 {
+                letter-spacing: 7px;
+            }
+
+               /* Picture of Main Member of Company */
+            .mainMember {
+                height: 179px;
+            }
+            .picofmainMember {
+                height: 103px;
+            }
+            .manager1 {
+                height: 115px;
+                width: 104%;
+                left: 10%;
+            }
+            .ceo {
+                height: 143px;
+                width: 91%;
+                left: 11%;
+            }
+            .manager2 {
+                height: 115px;
+                margin-top: 9%;
+                margin-left: 7%;
+                width: 104%;
+            }
+            /* Name of Main Member */
+            .nameofMainMember {
+                display: flex;
+                /* background-color: #c59c9c; */
+                height: 57px;
+                width: 80%;
+                margin: auto;
+            }
+            .managerName1 {
+                margin-left: 20%;
+                margin-top: 4%;
+                font-size: 13px;
+                font-weight: 800;
+            }
+            .ceoName {
+                margin-left: 8%;
+                margin-top: 5.5%;
+                font-size: large;
+                font-style: normal;
+            }
+            .managerName2 {
+                margin-left: 8%;
+                margin-top: 4%;
+                font-size: 13px;
+                font-weight: 900;
+            }
+        }
+         
+        /* Media Query for Large screens */
+        @media (min-width: 1281px) {
+            .subDiv1 {
+                padding: 2.5%;
+                height: 27px;
+                
+            }
+            .teamGrpName  {
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            }
+       
+    }
